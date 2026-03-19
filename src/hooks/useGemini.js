@@ -1,7 +1,7 @@
 
 import { useState, useCallback } from 'react';
 
-const MODEL = 'gemini-2.5-flash';
+const MODEL = 'gemini-2.5-flash-lite';
 const API_BASE = 'https://generativelanguage.googleapis.com/v1beta/models';
 
 async function callGemini(apiKey, prompt) {
