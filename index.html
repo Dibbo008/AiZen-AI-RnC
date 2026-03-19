@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+
+    <!-- CRITICAL for mobile responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+
+    <meta name="description" content="AiZen — AI-powered resume and cover letter builder. Craft your career, effortlessly." />
+    <meta name="theme-color" content="#0a0d14" />
+
+    <!-- Open Graph (for sharing) -->
+    <meta property="og:title" content="AiZen — AI Resume Builder" />
+    <meta property="og:description" content="Build ATS-optimized resumes and cover letters with Gemini AI." />
+    <meta property="og:type" content="website" />
+
+    <title>AiZen — Craft Your Career, Effortlessly</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800;900&family=DM+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+
+    <!-- html2pdf for PDF export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <style>
+      /* Prevent flash of unstyled content */
+      html { background: #0a0d14; }
+      /* Smooth tap on mobile */
+      * { -webkit-tap-highlight-color: transparent; }
+      /* Full height on mobile browsers */
+      html, body, #root { height: 100%; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
