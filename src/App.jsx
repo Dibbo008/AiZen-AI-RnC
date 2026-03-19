@@ -9,7 +9,7 @@ import ResumePreview from './components/ResumePreview';
 import CoverLetter from './components/CoverLetter';
 import { useGemini } from './hooks/useGemini';
 
-const GEMINI_API_KEY = 'AIzaSyAPbhQl95KeGr6BQalSEoU5EsqbbDMWJzw';
+const GEMINI_API_KEY = 'YOUR_API_KEY';
 
 const INITIAL_DATA = {
   personal: { name: '', jobTitle: '', email: '', phone: '', location: '', linkedin: '', summary: '', yearsExp: '', strengths: '' },
